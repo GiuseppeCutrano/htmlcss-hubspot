@@ -39,6 +39,11 @@
 
 }
 
+.col-33{
+  width: calc(100% / 3)
+
+
+}
 
 
 
@@ -53,7 +58,7 @@
 
 
 .box{
-  height: 400px;
+  height: 300px;
   border: 1px solid black;
   background-color: CadetBlue;
   position: relative;
@@ -77,4 +82,26 @@
   border: 1px solid black;
   margin: auto;
   margin-top: 30px;
+}
+.colbox, .tablebox{
+  height: 300px;
+  background-color: blue;
+  border: 1px solid black;
+}
+
+
+
+.colbox1{
+  height: 350px;
+  width: 250px;
+  background-color: Bisque;
+  float: left;
+  margin-left: 180px;
+
+}
+
+
+.col-25{
+  background-color: DarkBlue;
+  width: 25%;
 }
