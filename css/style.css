@@ -27,18 +27,26 @@
 .h-300{
   height: 300px;
 }
-.box-1{
-  border: 1px solid black
+.select-lingua{
+  color: DarkSlateGrey;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+
+
 }
 /* misure da cancellare */
 .box-1.centeredbox{
   top: 50%;
   left: 50%;
-  transform: translate(-70%, -40%);
+  transform: translate(-70%, -30%);
   position: absolute;
 
 }
-
+.left1{
+  margin-right: 30px;
+}
  .box-2{
    width: 50px;
    height: 50px;
@@ -49,17 +57,13 @@
   float: right;
 }
 
-/* .logotext{
-  padding: 30px;
-  text-align: center;
-} */
- .logo{
-   height: 60px;
-   width: 60px;
-   display: block;
-  margin-left: auto;
-  margin-right: auto;
 
+ .logo-box{
+  font-size: 20px;
+
+  position: absolute;
+  top:34%;
+  left:34%;
 
  }
 
@@ -94,12 +98,62 @@
 
 }
 
+.row{
+  position: relative;
+}
+
+
+/* inizio css per bloccotext */
+.bloccotext{
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+
+}
+.textbox{
+
+  margin-left:25px;
+}
+
+
+.b1{
+  position: absolute;
+  left: 25px;
+}
+
+.buttonhub{
+  background-color: orange;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 10px;
+ }
+
+.grow-text{
+  padding:20px;
+  font-size: 20px;
+  margin-left: 10px;
+
+}
+ h6{
+   margin-top: 10px;
+ }
+/* fine css per bloccotext */
 nav{
   width: 100%;
   text-align: right;
   color: grey;
 }
-
+ul.menu li:hover{
+  background-color: lightgrey;
+  cursor: pointer;
+}
 ul.menu li a{
   text-decoration: none;
   padding: 8px;
@@ -116,7 +170,7 @@ ul.menu li{
   line-height: 45px;
 
 }
-
+/* fine css nav menu */
 
 .row .col{
   border: 1px solid black;
@@ -129,7 +183,7 @@ ul.menu li{
 
 
 .bigbox{
-  height: 300px;
+  height: 800px;
   border: 1px solid black;
   background-color: CadetBlue;
   position: relative;
@@ -137,8 +191,8 @@ ul.menu li{
 
 
 .central-content{
-  height: 100px;
-  width: 200px;
+  height: 200px;
+  width: 300px;
   background-color: white;
   border: 1px solid black;
   margin: auto;
@@ -149,12 +203,24 @@ ul.menu li{
 
 .central-content2{
   height: 100px;
-  width: 200px;
-  background-color: white;
   border: 1px solid black;
   margin: auto;
   margin-top: 30px;
+  text-align: center;
+  padding: 20px;
+
 }
+
+.content3{
+  height: 300px;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+
+ #hubspot-offers{
+   padding-top: 10px;
+ }
+
 .tablebox{
   height: 300px;
   background-color: blue;
