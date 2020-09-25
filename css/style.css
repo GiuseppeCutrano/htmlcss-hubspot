@@ -216,7 +216,14 @@ ul.menu li{
   margin-top: 20px;
   border: 1px solid black;
 }
+.box-cassa, .box-cassa1{
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  float: left;
 
+
+}
  #hubspot-offers{
    padding-top: 10px;
  }
@@ -255,9 +262,30 @@ ul.menu li{
   height: 100%;
 
 }
+.box-content5{
+  width: 300px;
+  height: 100px;
+  border: 1px solid black;
+  margin-left: 200px;
+}
 
+.box-content6{
+  width: 450px;
+  height: 100px;
+  border: 1px solid black;
+  margin-left: 150px;
+  position: relative;
+
+}
 .footlink{
-  width: 100%;
+  height: 200px;
   text-align: center;
   color: grey;
+  margin-top: 20px;
+}
+.col > h5{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
 }
