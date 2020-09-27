@@ -320,7 +320,6 @@ input[type="button"]:hover{
   text-align: left;
 }
 
-/* centrare testo verticalmente con h1 o p ??? */
 .box2-top .box-center .col:last-child h2{
   padding: 40px 0 20px 0;
 }
@@ -350,7 +349,6 @@ input[type="button"]:hover{
   box-shadow: 3px 3px 3px #E8EDF3, -3px -3px 3px #E8EDF3;
 }
 
-/* centrare hr a linea del h3 ??? */
 
 #hr-special{
   display: inline-block;
@@ -387,7 +385,7 @@ input[type="button"]:hover{
   padding: 10%;
   padding-bottom: 0;
 }
-/* dovevo dividere in più bocchi fissi la colonna!!! */
+
 .box2grande-row-top .box2-top .box-3colonne .col:last-child p{
   font-size: 18.5px;
   padding: 10%;
@@ -451,7 +449,6 @@ input[type="button"]:hover{
   position: relative;
 }
 
-/* def row item cell */
 .cell-item{
   position: absolute;
   left: 50%;
