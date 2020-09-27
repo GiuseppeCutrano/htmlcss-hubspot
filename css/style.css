@@ -102,16 +102,10 @@ header > hr,{
   bottom: 0;
 }
 
-.box1grande{
-  background-image: url('img/hero-clouds.svg');
-  background-color: #FFF2EE;
-  background-size: 60%;
-  background-repeat: no-repeat;
-  background-position: right;
-}
+
 
 .box-1cont{
-  background-image: url('img/hero-bg.svg');
+  background-image: url('');
   background-position: right bottom;
   background-size: 60%;
   /* background-size:cover; */
