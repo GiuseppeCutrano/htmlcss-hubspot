@@ -574,11 +574,13 @@ footer .row div:last-child{
 
 footer .social-footer li{
   display:inline-block;
-  margin-right: 15px;
+  margin-right: 5px;
   margin-top: 10px;
+  
 }
 
 footer .list-lang-footer{
+  margin-top: 50px;
   text-align: center;
 }
 
@@ -586,6 +588,10 @@ footer .list-lang-footer li{
   display: inline-block;
   margin: 1% 1% 1% 1%;
 
+}
+
+.row .h-100{
+  margin-top: 70px;
 }
 
 footer .list-lang-footer li:first-child{
