@@ -98,7 +98,6 @@ header > hr{
 
 }
 
-<<<<<<< HEAD
 .box1grande{
   /* background-image: url('../img/jumbotron.png'); */
   background-color: #FFF2EE;
@@ -115,18 +114,6 @@ header > hr{
   background-repeat: no-repeat; */
   background-color: #FFF2EE;
   /* padding-top: 80px; */
-=======
-
-
-.box-1cont{
-  background-image: url('');
-  background-position: right bottom;
-  background-size: 60%;
-  /* background-size:cover; */
-  background-repeat: no-repeat;
-  /* background-color: #FFF2EE; */
-  padding-top: 90px;
->>>>>>> main
 }
 
 .box-1cont .row .col h1{
@@ -224,7 +211,7 @@ header > hr{
   transform: translate(-50%, -50%);
 }
 
-#b-hs-sup{
+#buttonfooter{
   background-color: lightgrey;
   border: none;
   color: #32495b;
@@ -327,10 +314,7 @@ header > hr{
   text-align: left;
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> main
 .box2-top .box-center .col:last-child h2{
   padding: 40px 0 20px 0;
   vertical-align: super;
@@ -462,10 +446,7 @@ header > hr{
   position: relative;
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> main
 .cell-item{
   position: absolute;
   left: 50%;
