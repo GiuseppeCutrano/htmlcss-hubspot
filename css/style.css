@@ -17,7 +17,7 @@
   width: 50%;
 }
 
-.width-60p{
+.w-60{
   width: 60%;
 }
 
@@ -31,11 +31,11 @@
   height: 100px;
 }
 
-.height-200{
-  height: 200px;
+.h-200{
+  height: 300px;
 }
 .h-300{
-  height: 350px;
+  height: 300px;
 }
 
 .height-400{
@@ -67,7 +67,7 @@
 }
 
 
-header > hr,{
+header > hr{
   border: none;
   height: 2px;
   background-color: #738491;
@@ -92,32 +92,28 @@ header > hr,{
   position: relative;
 }
 
-.img-extender{
-  width: 40%;
-  height: 3.8vw;
-  position: absolute;
-  border-top: 2.5px solid rgb(51,71,92);
-  background-color: #AFEBE4;
-  left: 0;
-  bottom: 0;
+
+.height-500{
+  margin-right: 40px;
+
 }
 
 .box1grande{
-  background-image: url('img/hero-clouds.svg');
+  /* background-image: url('../img/jumbotron.png'); */
   background-color: #FFF2EE;
-  background-size: 60%;
+  background-size: 30%;
   background-repeat: no-repeat;
   background-position: right;
 }
 
-.box-1cont{
-  background-image: url('img/hero-bg.svg');
-  background-position: right bottom;
-  background-size: 60%;
-  /* background-size:cover; */
-  background-repeat: no-repeat;
-  /* background-color: #FFF2EE; */
-  padding-top: 90px;
+ .box-1cont{
+  /* background-image: url('../img/jumbotron.png'); */
+  /* background-position: right bottom;
+  background-size: 30%;
+  background-size:cover;
+  background-repeat: no-repeat; */
+  background-color: #FFF2EE;
+  /* padding-top: 80px; */
 }
 
 .box-1cont .row .col h1{
@@ -130,6 +126,7 @@ header > hr,{
     color: #33475B;
     font-size: 18px;
     margin-bottom: 40px;
+    margin-right: 10px;
 }
 
 .box-1cont .row .col p:last-child{
@@ -150,15 +147,10 @@ header > hr,{
   background: linear-gradient(45deg, #00a4bd, #00bda5);
 }
 
-.bg-footer{
-  background-color: #32495B;
+.box-footer{
+  background-color: #2a4052;
 }
-.hero-divisory{
-  border: 4px solid #33475B;
-  border-left: 0;
-  border-right: 0;
-  background-color: #AFEBE4;
-}
+
 
 .navbar-login div{
   line-height: 100px;
@@ -166,9 +158,7 @@ header > hr,{
   color: #32495B;
 }
 
-/* .navbar-login span:last-child{
-  margin-left: 30px;
-} */
+
 
 #button-freehub{
   background-color: #FE775A;
@@ -180,13 +170,14 @@ header > hr,{
 }
 
 #button-login{
-  background-color: white;
   border: 1px solid #f57a5f;
   font-size: 20px;
   color: #FE775A;
   padding: 10px 20px;
   margin-right: 10px;
   margin-left: 10px;
+  background-color: white;
+
 
 }
 
@@ -243,13 +234,10 @@ header > hr,{
 }
 
 .navbar-login .col-right i{
-  color: #0AA7BF;
+  color: #109fb5;
 }
 
-input[type="button"]:hover{
-  cursor: pointer;
-  opacity: 0.5;
-}
+
 
 .nav-logo .row .col{
   line-height: 100px;
@@ -308,7 +296,7 @@ input[type="button"]:hover{
 }
 
 .box-3colonne .col{
-  width: calc(90% / 3);
+  width: 30%;
 }
 
 .box2-top .box-3colonne .col:nth-child(2){
@@ -326,9 +314,10 @@ input[type="button"]:hover{
   text-align: left;
 }
 
-/* centrare testo verticalmente con h1 o p ??? */
+
 .box2-top .box-center .col:last-child h2{
   padding: 40px 0 20px 0;
+  vertical-align: super;
 }
 
 .box2-top .box-center .col:last-child h3{
@@ -356,9 +345,9 @@ input[type="button"]:hover{
   box-shadow: 3px 3px 3px #E8EDF3, -3px -3px 3px #E8EDF3;
 }
 
-/* centrare hr a linea del h3 ??? */
 
-#hr-special{
+
+#hr-speciale{
   display: inline-block;
   width: 70%;
   background-color: #A1A9AC;
@@ -373,9 +362,9 @@ input[type="button"]:hover{
 
 .box2grande-row-top .box2-top .box-3colonne .col{
   position: relative;
-  border-radius: .1875rem;
+  border-radius: 3%;
   background-color: white;
-  box-shadow: 3px 3px 3px #E8EDF3, -3px -3px 3px #E8EDF3;
+
 }
 
 .box2grande-row-top .box2-top .box-3colonne .col img{
@@ -393,7 +382,7 @@ input[type="button"]:hover{
   padding: 10%;
   padding-bottom: 0;
 }
-/* dovevo dividere in più bocchi fissi la colonna!!! */
+
 .box2grande-row-top .box2-top .box-3colonne .col:last-child p{
   font-size: 18.5px;
   padding: 10%;
@@ -440,24 +429,24 @@ input[type="button"]:hover{
   line-height: 180%;
 }
 
-.table-row{
+.table-box{
   height: 50%;
-  width: 70%;
+  width: 75%;
   position: absolute;
   left: 50%;
   top: 65%;
   transform: translate(-50%, -50%);
 }
 
-.first-table-row, .second-table-row{
-  height: 50%;
+.first-table-box, .second-table-box{
+  height: 60%;
 }
 
 .col-table-item{
   position: relative;
 }
 
-/* def row item cell */
+
 .cell-item{
   position: absolute;
   left: 50%;
@@ -467,41 +456,34 @@ input[type="button"]:hover{
   color: white;
 }
 
-.cell-item .row{
-  margin: 5% 0;
-}
-
-.cell-item .row:first-child img{
-  max-width: 100%;
-  height: 35px;
-  margin-bottom: 8%;
-}
-
-.cell-item .row:nth-child(2){
-  font-size: 30px;
-}
-
 .cell-item .row:last-child{
   font-size: 15px;
   margin-top: 15%;
 }
 
-.first-table-row .col, .second-table-row .col{
+
+.cell-item .row:nth-child(2){
+  font-size: 25px;
+}
+
+
+
+.first-table-box .col, .second-table-box .col{
   width: calc(100% / 4);
   height: 100%;
-  border-right: 1px solid white;
+  border-right: 2px solid white;
 }
 
-.first-table-row .col{
-  border-bottom: 1px solid white;
+.first-table-box .col{
+  border-bottom: 2px solid white;
 }
 
-.first-table-row .col:last-child, .second-table-row .col:last-child{
+.first-table-box .col:last-child, .second-table-box .col:last-child{
   border-right: none;
 }
 
-/* ?? */
-.box2-bottom .col-spe {
+
+.box2-bottom .col-64 {
   max-width: 100%;
   padding: 5% 6%;
   text-align: left;
@@ -509,7 +491,7 @@ input[type="button"]:hover{
 }
 
 .box2grande-row-bottom .box2-bottom .row > .col h2{
-  font-size: 50px;
+  font-size: 40px;
   margin-bottom: 15%;
 }
 
@@ -561,4 +543,52 @@ input[type="button"]:hover{
   position: absolute;
   top: -24%;
   right: 0;
+}
+
+footer .row .col{
+  width: 20%;
+  margin-right: 60px;
+}
+
+footer ul{
+  text-decoration: none;
+  list-style-type: none;
+  color: #c8d7db
+}
+
+footer ul li{
+  margin: 10% 0;
+  font-size: 17px;
+}
+
+footer ul li:first-child{
+  font-size: 20px;
+  color: white;
+}
+
+footer .row div:last-child{
+  margin-right: 0;
+}
+
+footer .list-logos-footer li{
+  display:inline-block;
+  margin-right: 10%;
+  margin-top: -10%;
+}
+
+footer .list-lang-footer{
+  text-align: center;
+}
+
+footer .list-lang-footer li{
+  display: inline-block;
+  margin: 5% 1% 2% 1%;
+}
+
+footer .list-lang-footer li:first-child{
+  color: #c8d7db;
+}
+
+footer .box-footer > .row{
+  position: relative;
 }
