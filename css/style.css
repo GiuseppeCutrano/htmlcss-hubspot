@@ -42,7 +42,7 @@
   height: 400px;
 }
 
-.height-500{
+.h-500{
   height: 500px;
 }
 
@@ -54,7 +54,11 @@
   height: 700px;
 }
 
-
+.row::after{
+  content: '';
+  clear: both;
+  display: table;
+}
 
 .container{
   width: 60%;
@@ -65,6 +69,10 @@
   width: 70%;
   margin: 0 auto;
 }
+ul.navbar-menu li:hover{
+  background: lightgrey;
+  cursor: pointer;
+}
 
 
 header > hr{
@@ -73,11 +81,7 @@ header > hr{
   background-color: #738491;
 }
 
-.row::after{
-  content: '';
-  clear: both;
-  display: table;
-}
+
 
 .col{
   float: left;
@@ -85,6 +89,7 @@ header > hr{
 
 .col-right{
   float: right;
+
 }
 
 .box-1cont{
@@ -93,27 +98,22 @@ header > hr{
 }
 
 
-.height-500{
+.h-500{
   margin-right: 40px;
-
 }
 
 .box1grande{
-  /* background-image: url('../img/jumbotron.png'); */
-  background-color: #FFF2EE;
-  background-size: 30%;
-  background-repeat: no-repeat;
-  background-position: right;
+background-color: #f2e3df;
 }
 
  .box-1cont{
-  /* background-image: url('../img/jumbotron.png'); */
-  /* background-position: right bottom;
+  background-image: url('../img/jumbotron.png'); */
+  background-position: right bottom;
   background-size: 30%;
   background-size:cover;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   background-color: #FFF2EE;
-  /* padding-top: 80px; */
+  padding-top: 80px;
 }
 
 .box-1cont .row .col h1{
@@ -131,7 +131,7 @@ header > hr{
 
 .box-1cont .row .col p:last-child{
     color: #33475B;
-    font-size: 14px;
+    font-size: 13px;
     margin-top: 40px;
 }
 
@@ -144,7 +144,8 @@ header > hr{
 }
 
 .box2grande-row-center{
-  background: linear-gradient(45deg, #00a4bd, #00bda5);
+  background-color: #1da2e0;
+
 }
 
 .box-footer{
@@ -206,7 +207,7 @@ header > hr{
   font-size: 18px;
   padding: 15px 30px;
   position: absolute;
-  bottom: -4%;
+  top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -218,11 +219,11 @@ header > hr{
   padding: 8px 10px;
   text-align: center;
   text-decoration: none;
-  font-size: 14px;
-  cursor: pointer;
+  font-size: 15px;
   border: 1px solid white;
   border-radius: 4px;
   display: block;
+
 }
 
 .box-center{
@@ -547,7 +548,8 @@ header > hr{
 
 footer .row .col{
   width: 20%;
-  margin-right: 60px;
+  margin-right: calc(20% / 3);
+
 }
 
 footer ul{
@@ -570,10 +572,10 @@ footer .row div:last-child{
   margin-right: 0;
 }
 
-footer .list-logos-footer li{
+footer .social-footer li{
   display:inline-block;
-  margin-right: 10%;
-  margin-top: -10%;
+  margin-right: 15px;
+  margin-top: 10px;
 }
 
 footer .list-lang-footer{
@@ -582,11 +584,12 @@ footer .list-lang-footer{
 
 footer .list-lang-footer li{
   display: inline-block;
-  margin: 5% 1% 2% 1%;
+  margin: 1% 1% 1% 1%;
+
 }
 
 footer .list-lang-footer li:first-child{
-  color: #c8d7db;
+  color: #a9c1c7;
 }
 
 footer .box-footer > .row{
