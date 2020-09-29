@@ -574,9 +574,8 @@ footer .row div:last-child{
 
 footer .social-footer li{
   display:inline-block;
-  margin-right: 5px;
+  margin-right: 15px;
   margin-top: 10px;
-  
 }
 
 footer .list-lang-footer{
@@ -590,9 +589,6 @@ footer .list-lang-footer li{
 
 }
 
-.row .h-100{
-  margin-top: 70px;
-}
 
 footer .list-lang-footer li:first-child{
   color: #a9c1c7;
